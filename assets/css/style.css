@@ -1,7 +1,7 @@
 .profile-pic {
   position: relative;
   max-width:130px;
-  max-height:130px;
+  max-height:180px;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgba(77, 0, 0, 0.4); 
   border-radius: 50% !important;
 }
 
@@ -84,8 +84,8 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
+  background: #474747;
+  color: #790000;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,8 +116,8 @@
 }
 
 .contactme:hover{
-  color: #00796b;
-  background-color: white;
+  color: #790000;
+  background-color: #474747;
 }
 /* main body */
 
@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #4d0000;
 }
 
 /* main blockqoute */
@@ -175,7 +175,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: #474747;
   box-shadow: none;
   height: 0;
 }
@@ -257,8 +257,8 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
+  background-color: #474747;
+  border-bottom: 1px solid #474747;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -270,7 +270,7 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #474747;
   border-left: 3px solid;
 }
 
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #ffa7a7 repeat;
   position: relative;
 }
 
@@ -348,7 +348,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #5e3324;
 }
 
 #intro.section .teal {
@@ -367,7 +367,7 @@ h3 {
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
    of the button to still show through. */
-  background-color: rgba(33, 150, 243, 0.2);
+  background-color: rgba(243, 121, 33, 0.2);
 }
 
 .card {
@@ -473,7 +473,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #4d0000 !important;
 }
 
 #skills .card.large {
@@ -549,7 +549,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #800000 !important;
 }
 
 /* .teal-text {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #800000 !important;
 }
 
 /* .teal {
@@ -597,12 +597,12 @@ small {
     width: 100%;
   }
   nav {
-    background: #fff;
+    background: #474747;
     height: 64px;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #960000;
     height: 56px;
     line-height: 56px;
   }
