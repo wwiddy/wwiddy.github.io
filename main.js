@@ -13,7 +13,7 @@ const projects = [
       ],
       liveLink: "#",
       sourceLink: "#",
-      date: "2023-09-01" // Add date in YYYY-MM-DD format
+      date: "2023-11-01" // Add date in YYYY-MM-DD format
     },
     {
       title: "Fruit Ninja",
@@ -27,7 +27,7 @@ const projects = [
       ],
       liveLink: "#", // Replace with actual link if available
       sourceLink: "#",
-      date: "2022-11-05" // Add date in YYYY-MM-DD format
+      date: "2024-04-20" // Add date in YYYY-MM-DD format
     },
     // Add more projects here, each with a `date` property
   ];
